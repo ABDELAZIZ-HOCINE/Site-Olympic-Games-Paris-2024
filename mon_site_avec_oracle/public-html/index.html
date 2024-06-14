@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Paris 2024 Olympic Games</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="Css/home-style.Css"/>
+        <link rel="stylesheet" type="text/css" href="Css/nav-style.Css"/>
+
+    </head>
+
+
+    <body>
+    <!-- Navigation-->
+    <div class="body-container">
+        <nav class="navigation-container">
+            <div class="Titre">
+                <a href="index.html">Olympic Games Paris 2024</a>
+            </div>
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo">
+            </div>
+            <div class="barnav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="windows/Administrator.php">Administrator</a></li>
+                    <li><a href="windows/Visitor.html">Visitor</a></li>
+                    <li><a href="windows/Contact.html">Contact</a></li>
+                    <li><a href="windows/About.html">About</a></li>
+                    <form>
+                        <input type="search" id="search" name="search">
+                        <input type="submit" id="research" name="research" value="research">
+                    </form>
+                </ul>
+            </div>
+        </nav>    
+        <!-- Page Header-->
+        <header class="Header">
+            <div class="slideshow-container">
+                <div class="mySlides">
+                  <img src="images/img/image1.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                  <img src="images/img/image2.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                  <img src="images/img/image3.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <img src="images/img/image4.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <img src="images/img/image5.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <img src="images/img/image6.jpg" style="width:100%">
+                </div>
+            </div>
+            
+            <div class="home-head-container">
+                <h2>Welcome to the Official Website of Paris 2024 Olympic Games!</h2>
+                <p>
+                    The Paris 2024 Olympic Games promise to be an extraordinary event, bringing together 
+                    athletes from around the globe in the City of Light. With a rich Olympic tradition and 
+                    a deep-seated passion for sport ingrained in our culture, Paris is ready to welcome the world 
+                    to celebrate unity, excellence, and friendship. Whether it's swimming in the Seine, running along 
+                    the Champs-Élysées, or climbing to the top of the Eiffel Tower, the 2024 Games will be an unforgettable 
+                    celebration of human strength, determination, and camaraderie. Join us as we prepare to write the next
+                    chapter of Olympic history, right here in Paris, in 2024.
+                </p>
+            </div>
+            
+            <script>
+                var slideIndex = 0;
+                showSlides();
+                function showSlides() {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  slideIndex++;
+                  if (slideIndex > slides.length) {slideIndex = 1}    
+                  slides[slideIndex-1].style.display = "block";  
+                  setTimeout(showSlides, 2000);
+                }
+              </script>
+        </header>
+    </div>
+    </body>
+</html>

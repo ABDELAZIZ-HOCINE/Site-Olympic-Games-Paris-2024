@@ -1,0 +1,126 @@
+* {
+    margin-top: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    background-color: #ffffff;
+}
+
+.navigation-container {
+    display: block;
+    background-image: url("../images/img/flag.jpg");
+    background-position: 2cm;
+    background-position-x: left;
+    background-size: cover;
+    background-color: rgb(0, 0, 0,1);
+    padding: 20px; 
+    overflow: hidden;
+    width: cover;
+    height: cover;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+
+.Titre a {
+    text-decoration:none;
+    color: #ffffff;
+    text-shadow: 0px 0px 40px #ffcc00;
+    margin-left: 0px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo img {
+    position: relative;
+    margin-top: 0px;
+    justify-content: top;
+    justify-items: center;
+    max-width: 4cm;
+    max-height: 4cm;
+}
+
+.barnav input[type="submit"] {
+    padding: 1px 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color:rgba(255, 255, 255,0.5);
+    color: #000000;
+    cursor: pointer;
+}
+
+.barnav input[type="submit"]:hover {
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3), 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.barnav input[type="submit"]:active {
+    transform: translateY(1px);
+}
+
+.barnav input[type='search'] {
+    background-color: rgba(255, 255, 255, 0.3);
+    text-align: left;
+    font-weight: bold;
+    width: 400px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.barnav li {
+    display: inline;
+    margin-left: auto;
+    font-size: 20px;
+}
+
+.barnav a {
+    display: block;
+    text-decoration: none;
+    color:#fff;
+    margin-right: 10px;
+    float: right;
+}
+.barnav a:hover {
+    color: #ffcc00;
+}
+
+@media screen and (max-width: 1000px) {
+    .barnav {
+        padding-top: 10px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        border-radius:5px;
+        border:1px solid #ffcc00 ;
+    }
+    .barnav li {
+        display:flex;
+        flex-direction: column;
+        align-items: flex-end;
+        position: relative;
+        margin: 2px;
+        border-bottom:1px solid #ffcc00 ;
+    }
+    .barnav input[type='search'] {
+        text-align: left;
+        width: 100%;
+    }
+    #research {
+        position: relative;
+        justify-content: center;
+        margin-top: 10px;
+        margin-left: 43%;
+        margin-right: 43%;
+    }
+    
+}

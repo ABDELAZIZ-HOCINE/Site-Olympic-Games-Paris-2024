@@ -1,0 +1,182 @@
+.success {
+    margin-top: 20px;
+    text-align: center;
+    color: #00c20a; /* Vert */
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+}
+
+.error{
+    margin-top: 20px;
+    text-align: center;
+    color: #ff0000; /* Vert */
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+}
+
+.affichage-info {
+    text-align: center;
+    background-color: #f9f9f9;
+    width: cover;
+    height: cover;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.affichage-info button {
+    padding: 1px 1px;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color:rgb(255, 255, 255);
+    color: #000000;
+ 
+}
+
+.affichage-info button:hover {
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3), 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.affichage-info button:active {
+    transform: translateY(1px);
+}
+
+.retour {
+    display: flex;
+    justify-content: left;
+    margin: 10px;
+}
+.retour button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+.retour button:hover {
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3), 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.retour button:active {
+    transform: translateY(1px);
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    text-align: left;
+    font-weight: bold;
+    color: #333;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.affichage-modification {
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    width: cover;
+    height: cover;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.affichage-modification label {
+    text-align: left;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.affichage-modification input[type='password'] {
+    text-align: left;
+    font-weight: bold;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.affichage-modification input[type='text'] {
+    text-align: left;
+    font-weight: bold;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.affichage-modification input[type='submit'] {
+    margin-top: 10px;
+    padding: 1px 1px;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color:rgb(255, 255, 255);
+    color: #000000;
+}
+
+.affichage-modification input[type='submit']:hover {
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3), 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.affichage-modification input[type='submit']:active {
+    transform: translateY(1px);
+
+}
+
+#delete {
+    text-decoration: none;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255);
+    color: #ff0000;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #ff0000;
+    cursor: pointer; 
+}
+
+#delete:hover {
+    color: rgba(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#delete:active {
+    transform: translateY(1px);
+}
+
+#logout {
+    justify-content: left;
+    text-decoration: none;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255);
+    color: #000000;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    cursor: pointer; 
+}
+
+li {
+    list-style: none;
+}
+
+#logout:active {
+    transform: translateY(1px);
+}
